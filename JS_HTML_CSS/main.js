@@ -1,4 +1,4 @@
-// These variables store the boxes on the side
+
 let itemOne = document.getElementById('list-item-one');
 let itemTwo = document.getElementById('list-item-two');
 let itemThree = document.getElementById('list-item-three');
