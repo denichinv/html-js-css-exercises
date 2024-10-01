@@ -19,8 +19,10 @@ function displayTasks() {
   tasks.forEach((task, index) => {
     const li = document.createElement("li");
     li.textContent = task;
+    //creating Remove button
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
+    removeButton.classList.add("remove");
     removeButton.onclick = () => removeTask(index);
     li.appendChild(removeButton);
     taskList.appendChild(li);
