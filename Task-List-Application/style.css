@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+
+}
+
+h1{
+    color:#333
+
+}
+
+input{
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer ;
+
+}
+
+button:hover{
+    background-color: #4cae4c;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+li {
+    padding: 10px;
+    background-color: white;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+
+}
+button.remove{
+    background-color: #d9534f;
+    padding: 5px 10px ;
+}
